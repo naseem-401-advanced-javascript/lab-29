@@ -8,7 +8,7 @@ import { Route, Router } from 'react-router-dom';
 const History = props => {
   let history = props.info && Object.values(props.info).map((val,idx)=>{
     return (
-      <li>
+      <li id="history">
         <p key={idx}>{val.method}</p>
         <p key={idx}>{val.url}</p>
       </li>

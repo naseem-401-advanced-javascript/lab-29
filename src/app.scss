@@ -57,7 +57,7 @@ color: #ccc;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       max-width: 60% ;
     //   max-height: auto;
-      margin-left: 20%;
+      margin-left: 12%;
       margin-top: 2%;
     }
 
@@ -66,8 +66,26 @@ color: #ccc;
         float: right;;
         height: 400px;
         text-align: center;
-        width: 15%;
+        width: 20%;
         clear: both;
         background-color: lavender;
 
       }
+
+
+    h2 {
+      margin-left: 50px;
+    }
+
+
+  header{
+    display: flex;
+  }
+  h1{
+    margin-right: 70%;
+  }
+  #history{
+    text-align: left;
+    // border: solid black;
+    margin-left: 1px;
+  }
